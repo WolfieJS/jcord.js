@@ -1,0 +1,30 @@
+{
+  "name": "jcord",
+  "version": "0.1.1-master",
+  "description": "JCord is a simple and easy to use Discord Javascript Library that assures users to bring the ease when coding.",
+  "main": "./src/index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "ws": "^6.1.3"
+  },
+  "peerDependencies": {
+    "uws": "^99.0.0",
+    "depo": "0.0.3",
+    "chalk": "^2.4.2",
+    "endb": "^0.0.4"
+  },
+  "scripts": {
+    "test": "node test/",
+    "gendocs": "jsdoc -c docs.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discord-jcord/jcord.git"
+  },
+  "author": "Kevlar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/discord-jcord/jcord/issues"
+  },
+  "homepage": "https://jcord.js.org/"
+}
